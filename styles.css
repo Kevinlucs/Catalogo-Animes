@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    min-height: 100vh; /* faz a imagem ocupar toda a tela */
+    background-image: url("https://images2.imgbox.com/72/26/EAjMcAm2_o.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.form-wrapper input {
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    color: black;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.form-wrapper input::placeholder {
+    color: grey;
+    text-align: center;
+}
+
+.form-wrapper button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #912c22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0px 0 10px 0;
+}
+
+.form-wrapper button:hover {
+    background-color: #dcdcdc;
+    color: #000000;
+}
+
+.titulo {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.page-title {
+    color: #ffffff;
+    background: #912c22;
+    text-shadow: 0 0 10px #ffffff;
+    color: #ffffff;
+    background: #912c22;
+}
+
+img {
+    max-height: 250px;
+}
+
+#titulo {
+    background-color: #912c22;
+    color: #ffffff;
+    border: 5px solid #912c22;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#titulo:hover {
+    transform: scale(1.1);
+}

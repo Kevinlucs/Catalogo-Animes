@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="shortcut icon" type="imagex/png" href="./2.ico" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Catálogo de Animes</title>
+    </head>
+    <body>
+        <div id="container">
+            <h1 class="page-title">Catálogo de Animes</h1>
+            <div class="form-wrapper">
+                <input
+                    type="input"
+                    id="tituloAnime"
+                    name="tituloAnime"
+                    placeholder="Insira o nome do anime"
+                />
+                <input
+                    type="input"
+                    id="bannerAnime"
+                    name="bannerAnime"
+                    placeholder="Insira a URL da imagem do anime"
+                />
+                <p id="mensagemDeErro"></p>
+
+                <button onClick="adicionarAnime()">Adicionar Anime</button>
+            </div>
+        </div>
+
+        <div id="listaAnimes"></div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
